@@ -1,13 +1,13 @@
-module github.com/oapi-codegen/oapi-codegen/v2/examples/petstore-expanded/echo-v5
+module github.com/ramory-l/oapi-codegen/v2/examples/petstore-expanded/echo-v5
 
 go 1.25.0
 
-replace github.com/oapi-codegen/oapi-codegen/v2 => ../../../
+replace github.com/ramory-l/oapi-codegen/v2 => ../../../
 
 require (
 	github.com/getkin/kin-openapi v0.134.0
 	github.com/labstack/echo/v5 v5.0.4
-	github.com/oapi-codegen/oapi-codegen/v2 v2.0.0-00010101000000-000000000000
+	github.com/ramory-l/oapi-codegen/v2 v2.0.0-00010101000000-000000000000
 	github.com/oapi-codegen/runtime v1.2.0
 	github.com/oapi-codegen/testutil v1.1.0
 	github.com/stretchr/testify v1.11.1

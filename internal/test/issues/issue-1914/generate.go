@@ -1,3 +1,3 @@
 package issue1914
 
-//go:generate go run github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen --config=cfg.yaml spec.yaml
+//go:generate go run github.com/ramory-l/oapi-codegen/v2/cmd/oapi-codegen --config=cfg.yaml spec.yaml

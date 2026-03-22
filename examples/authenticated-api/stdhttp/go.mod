@@ -1,14 +1,14 @@
-module github.com/oapi-codegen/oapi-codegen/v2/examples/authenticated-api/stdhttp
+module github.com/ramory-l/oapi-codegen/v2/examples/authenticated-api/stdhttp
 
 go 1.24.3
 
-replace github.com/oapi-codegen/oapi-codegen/v2 => ../../../
+replace github.com/ramory-l/oapi-codegen/v2 => ../../../
 
 require (
 	github.com/getkin/kin-openapi v0.134.0
 	github.com/lestrrat-go/jwx v1.2.31
 	github.com/oapi-codegen/nethttp-middleware v1.1.2
-	github.com/oapi-codegen/oapi-codegen/v2 v2.0.0-00010101000000-000000000000
+	github.com/ramory-l/oapi-codegen/v2 v2.0.0-00010101000000-000000000000
 	github.com/oapi-codegen/testutil v1.1.0
 	github.com/stretchr/testify v1.11.1
 )

@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/getkin/kin-openapi/openapi3"
-	"github.com/oapi-codegen/oapi-codegen/v2/pkg/util"
+	"github.com/ramory-l/oapi-codegen/v2/pkg/util"
 )
 
 // SchemaPath represents the document location of a schema, e.g.

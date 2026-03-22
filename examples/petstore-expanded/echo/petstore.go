@@ -13,7 +13,7 @@ import (
 
 	"github.com/labstack/echo/v4"
 	middleware "github.com/oapi-codegen/echo-middleware"
-	"github.com/oapi-codegen/oapi-codegen/v2/examples/petstore-expanded/echo/api"
+	"github.com/ramory-l/oapi-codegen/v2/examples/petstore-expanded/echo/api"
 )
 
 func main() {
